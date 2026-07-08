@@ -161,3 +161,15 @@ button{
 .seafoamBack{
     background-color: var(--seafoam);
 }
+
+
+.pleaseSendHelp {
+    position: relative !important;
+    top: -90px;
+}
+
+
+.btn1{
+background: #C18D52;
+border-radius: 999px;
+}
