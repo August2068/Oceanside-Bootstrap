@@ -9,19 +9,32 @@
     --white:#FFFFFF;
 }
 
-.metamorphous-regular {
-  font-family: "Metamorphous", serif;
-  font-weight: 400;
+
+.cormorant-garamond {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
   font-style: normal;
 }
 
 body{
     background-color: var(--abyss);
+    font-family: "Inter";
 }
 
 h1, .navbar span{
     color: var(--ivory);
-    font-family:"Metamorphous";
+    font-family:"Cormorant Garamond";
+}
+
+.hero{
+    font-size: 5em;
 }
 .navbar a{
     color: var(--mist);
@@ -45,6 +58,14 @@ h1, .navbar span{
 
 .sand{
     color:var(--sand)
+}
+
+.seafoam{
+    color:var(--seafoam);
+}
+
+.abyss{
+    color: var(--abyss);
 }
 
 .btn1{
@@ -72,12 +93,9 @@ h1, .navbar span{
 #card1 :first-child, #card2 :first-child, #card3 :first-child{
     color: var(--ivory);
 }
-#card1 :last-child, #card2 :last-child, #card3 :last-child{
-    color: var(--mineral);
-}
 
 h2{
-    font-family:"Metamorphous";
+    font-family:"Cormorant Garamond";
 }
 
 .paddingTopBottom{
@@ -113,16 +131,16 @@ h2{
 .frame1{
     z-index: -1;
     position: absolute;
-    width: 50%;
-    top : -10%;
+    width: 100%;
+    top : 0%;
     right:0%
 }
 
 .frame1small{
     z-index: -1;
     position: absolute;
-    width: 80%;
-    top : 5%;
+    width: 100%;
+    top : 0%;
     right:0%
 }
 
@@ -131,14 +149,11 @@ h2{
 }
 
 .card-img{
-    width: 110%;
-    position: relative;
-    top: -20%;
-    right: 10%;
+    width: 100%;
 }
 
 .cardFrame{
-    width: 50%;
+    width: 70%;
     height: 80%;
     border: none;
     border-radius: 50px;
@@ -165,11 +180,15 @@ button{
 
 .pleaseSendHelp {
     position: relative !important;
-    top: -90px;
+    top: -7vw;
 }
 
 
 .btn1{
 background: #C18D52;
 border-radius: 999px;
+}
+
+.fontSize{
+    font-size: 3em;
 }
